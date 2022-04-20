@@ -15,22 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="指针交换.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="sort函数.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="安全.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="拷贝构造1.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="拷贝构造2.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="拷贝构造3.cpp">
+    <ClCompile Include="7-4.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

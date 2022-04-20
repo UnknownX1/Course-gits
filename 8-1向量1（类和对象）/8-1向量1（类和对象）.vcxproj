@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{d3c3f3d8-d13f-4c1c-bd4a-a17ce28fc9d1}</ProjectGuid>
-    <RootNamespace>test</RootNamespace>
+    <ProjectGuid>{20033097-26f5-4565-ab05-1c68a9d58039}</ProjectGuid>
+    <RootNamespace>My81向量1类和对象</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,12 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="sort函数.cpp" />
-    <ClCompile Include="拷贝构造1.cpp" />
-    <ClCompile Include="拷贝构造3.cpp" />
-    <ClCompile Include="指针交换.cpp" />
-    <ClCompile Include="安全.cpp" />
-    <ClCompile Include="拷贝构造2.cpp" />
+    <ClCompile Include="8-1.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
