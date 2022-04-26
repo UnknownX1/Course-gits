@@ -49,7 +49,7 @@ private:
 	int n;
 	int** data;
 public:
-	CMatrix(int n,int **a);
+	CMatrix(int n, int** a);
 	bool check(const CVector& v1);
 	CVector multi(const CVector& v1);
 	~CMatrix();
@@ -58,7 +58,7 @@ public:
 CMatrix::CMatrix(int n1, int** a) {
 	n = n1;
 	data = new int* [n];
-	for (int i = 0; i < n; i++){
+	for (int i = 0; i < n; i++) {
 		data[i] = new int[n];
 	}
 
@@ -83,7 +83,7 @@ bool CMatrix::check(const CVector& v1) {
 	}
 }
 CVector CMatrix::multi(const CVector& v1) {
-	int* data0 = new int[n]{0};
+	int* data0 = new int[n] {0};
 
 	for (int i = 0; i < n; i++) {
 		for (int j = 0; j < n; j++) {
